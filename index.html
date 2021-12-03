@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<style>
+    /* This is for wire framing to see our rows/columns */
+    body.debug .container,
+    body.debug .container-fluid {
+        outline: 2px double blue;
+        outline-offset: -2px;
+    }
+
+    body.debug .row {
+        outline: 2px dashed red;
+        outline-offset: -2px;
+    }
+
+    body.debug [class*="col-"
+
+    ] {
+        outline: 2px dotted forestgreen;
+        outline-offset: -3px;
+    }
+</style>
+
+<body class="debug">
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- INSERT NAV BAR -->
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- USER INFO BOX HERE -->
+                </div>
+                <div class="col-md-9 d-none d-md-block">
+                    <!-- WEBSITE TEXT HERE -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 bg-dark text-light position-absolute spill">
+                    <!-- SPILL BOX HERE (NEED TO COL FOR MOBILE AND ADJUST ORDER FOR POS.) -->
+                    <p>TEST 11</p>
+                </div>
+                <div class="col-md-6 bg-primary">
+                    <!-- WEBSITE TEXT HERE  -->
+                    <p> TEST 22</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- IMG HERE -->
+                </div>
+                <div class="col-md-9">
+                    <!-- ICON, IMG TEXT, AND BUTTON -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 d-flex">
+                    <!-- REVIEW BOX 1 -->
+                    <p>TEST 1</p>
+                </div>
+                <div class="col-md-4 d-flex review-bx">
+                    <!-- REVIEW BOX 2 W ICONS -->
+                    <p>TEST 2</p>
+                </div>
+                <div class="col-md-4 d-flex">
+                    <!-- REVIEW BOX 3 -->
+                    <p>TEST 3</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div>
+                        <!-- HEADER -->
+                    </div>
+                    <div>
+                        <!-- SUB-TEXT -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- FOOTER -->
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
