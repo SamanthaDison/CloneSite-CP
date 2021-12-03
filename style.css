@@ -20,9 +20,7 @@
     margin-bottom: 3vh;
 }
 
-.review-bx{
-
-}
+/* }
 
 /* .spill-col{
     right: 0;
@@ -30,7 +28,7 @@
     padding: 5vh;
     position: absolute; */
 
-/* } */
+/* } */ 
 
 .spill{
     background:grey;
@@ -47,3 +45,25 @@
     position: absolute;
 }
 }
+
+/* .review{
+    background: white ;
+    box-sizing: border-box;
+    box-shadow: whitesmoke;
+    border: tomato solid 5px;
+    
+} */
+
+.review-text{
+    text-align: center;
+    background: white;
+    box-sizing: border-box;
+    box-shadow: whitesmoke;
+    border: tomato solid 5px;
+    
+}
+
+/* .review-icons{
+    text-align: center;
+    justify-content: center;
+} */
