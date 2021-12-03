@@ -1,9 +1,49 @@
 
+.banner-img{
+    background-image: url('https://images.unsplash.com/photo-1544039578-7619e5bc1fe7?crop=entropy&cs=srgb&fm=jpg&ixid=Mnw3MjAxN3wwfDF8c2VhcmNofDJ8fHRyZWVsaW5lfGVufDB8fHx8MTYzODU2NzQ3OA&ixlib=rb-1.2.1&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450');
+    height: 80vh;
+    background-size: cover;
+    background-position:center;
+    opacity: 90%;
+}
+
+.form-card{
+    background:coral;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.big-input{
+    height: 20vh;
+    width: 100%;
+    margin-bottom: 3vh;
+}
+
 .review-bx{
 
 }
 
+/* .spill-col{
+    right: 0;
+    top: 60vh;
+    padding: 5vh;
+    position: absolute; */
+
+/* } */
+
 .spill{
-    left: 20vh;
-    top: 3vh;
+    background:grey;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 3px 3px rgb(97, 97, 97);
+}
+
+@media (min-width:1440px){
+    .spill-col{
+        right: 0;
+    top: 60vh;
+    padding: 5vh;
+    position: absolute;
+}
 }
