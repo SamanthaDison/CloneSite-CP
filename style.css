@@ -58,6 +58,14 @@
     
 }
 
+
+@media (max-width:768px) {
+    .bx-2{
+        order: -1;
+    }
+    
+}
+
 /* .review-icons{
     text-align: center;
     justify-content: center;
