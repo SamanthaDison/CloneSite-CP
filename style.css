@@ -1,8 +1,7 @@
 
 :root{
     --primary: #564B73;
-    --secondary: #906B88;
-    --tertiary: #A16B83;   
+    --secondary: #906B88;  
 }
 
 .bg-main{
@@ -26,7 +25,7 @@
     border-radius: 5px;
     opacity: 90%;
     padding: 1em;
-margin: 0 2em 0 2em;
+    margin: 0 2em 0 2em;
 }
 
 .big-input{
@@ -59,7 +58,6 @@ margin: 0 2em 0 2em;
     position: absolute;
 }
 }
-
 
 .review-text{
     text-align: center;
