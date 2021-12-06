@@ -1,17 +1,32 @@
 
+:root{
+    --primary: #564B73;
+    --secondary: #906B88;
+    --tertiary: #A16B83;   
+}
+
+.bg-main{
+    background:var(--primary)
+}
+
+.bg-sub{
+    background: var(--secondary);
+}
+
 .banner-img{
-    background-image: url('https://images.unsplash.com/photo-1544039578-7619e5bc1fe7?crop=entropy&cs=srgb&fm=jpg&ixid=Mnw3MjAxN3wwfDF8c2VhcmNofDJ8fHRyZWVsaW5lfGVufDB8fHx8MTYzODU2NzQ3OA&ixlib=rb-1.2.1&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450');
+    background-image: url('https://www.99images.com/photos/wallpapers/3d-abstract/pastels-aesthetic-computerandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-jkd2q.png?v=1577655843');
     height: 80vh;
     background-size: cover;
     background-position:center;
-    opacity: 90%;
 }
 
 .form-card{
-    background:coral;
-    border: 1px solid black;
+    background:var(--tertiary);
     box-sizing: border-box;
     border-radius: 5px;
+    opacity: 90%;
+    padding: 1em;
+margin: 0 2em 0 2em;
 }
 
 .big-input{
@@ -20,21 +35,17 @@
     margin-bottom: 3vh;
 }
 
-/* }
 
-/* .spill-col{
-    right: 0;
-    top: 60vh;
-    padding: 5vh;
-    position: absolute; */
+.spill-col{
+    padding-top: 5vh;
+}
 
-/* } */ 
 
 .spill{
-    background:grey;
+    background:var(--primary);
     box-sizing: border-box;
-    border-radius: 2px;
-    box-shadow: 3px 3px rgb(97, 97, 97);
+    border-radius: 5px;
+    padding-top: 2vh;
 }
 
 @media (min-width:1440px){
@@ -64,6 +75,13 @@
         order: -1;
     }
     
+}
+
+/* @media (max-width:768px) {
+    .form-card{
+        margin-bottom: 2em;
+    }
+     */
 }
 
 /* .review-icons{
